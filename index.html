@@ -15,58 +15,83 @@
     <link href="css/slidefolio.css" rel="stylesheet">
 	<!-- Font Awesome -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    	@media (min-width: 992px){
+				.col-md-4s {
+    			width: 40%;
+				}
+				.col-md-offset-4s {
+    			margin-left: 32%;
+				}
+			}	
+			
+    </style>
   </head>
 <body>
-
+		<audio style="display:none" controls id="audio"></audio>
+		<div class="andio">
+			<div class="pre"><div class="pre-img"></div></div>
+			<div class="stop"><div class="stop-img"></div></div>
+			<div class="next"><div class="next-img"></div></div>
+		</div>
     <!-- Header Area -->
     <div id="top" class="header">
       <div class="vert-text">
-      <div style="width:100%;background:red;position:relative;" class="text-center">
-        <div style="overflow:hidden;position:absolute;left:50%;margin-left:-50px;margin-top:-100px;" class="yuan">
-   	       <img  width='100px'  class="img-rounded" alt="Company Logo" src="./img/1.jpg"/>
-        </div>
-      </div>
-          <h2>只要有梦想，就要去捍卫它</h2>
-		      <ul class="list-inline">
-              <li>我是周晋勇</li>
-              <li>30岁</li>
-              <li>前端工程师</li>
-      			  <li><a href="tel:13835385067">13835385067</a></li>
-      			 <li>513002798@qq.com</li>
-           </ul>	
-			<br>
-			<a href="#about" class="btn btn-top">Learn More</a>
+      	<div style="width:100%;background:red;position:relative;" class="text-center">
+        	<div style="overflow:hidden;position:absolute;left:50%;margin-left:-50px;margin-top:-100px;" class="yuan">
+   	      	<img  width='100px'  class="img-rounded" alt="Company Logo" src="./img/1.jpg"/>
+        	</div>
+      	</div>
+        <h2>只要有梦想，就要去捍卫它</h2>
+		    <ul class="list-inline">
+          <li>我是周晋勇</li>
+          <li>30岁</li>
+          <li>前端工程师</li>
+      		<li><a href="tel:13835385067">13835385067</a></li>
+      		<li>513002798@qq.com</li>
+        </ul>	
+				<br>
+				<a href="#about" class="btn btn-top">Learn More</a>
       </div>
     </div>
     <!-- /Header Area -->
 	  <div id="nav">
     <!-- Navigation -->
-    <nav class="navbar navbar-new" role="navigation">
-   <div class="container">
+    	<nav class="navbar navbar-new" role="navigation">
+   			<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-	<a href="#" class="navbar-brand">Sunshineltt</a>
-  </div>
-  <div class="collapse navbar-collapse" id="mobilemenu">
-
-	  <ul class="nav navbar-nav navbar-right text-center">
-	    <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a></li>
-        <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;About</a></li>
-        <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Speciallities</a></li>
-        <li><a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Experience</a></li>
-        <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a></li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
-  </div>
-</nav>
+  				<div class="navbar-header">
+    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+      				<span class="sr-only">Toggle navigation</span>
+     		 			<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+    				</button>
+						<a href="#" class="navbar-brand">Sunshineltt</a>
+  				</div>
+  				<div class="collapse navbar-collapse" id="mobilemenu">
+	  				<ul class="nav navbar-nav navbar-right text-center">
+	    				<li>
+	    					<a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a>
+	    				</li>
+        			<li>
+        				<a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;About</a>
+        			</li>
+        			<li>
+        				<a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Speciallities</a>
+        			</li>
+        			<li>
+        				<a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Experience</a>
+        			</li>
+        			<li>
+        				<a href="#contact"> <i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a>
+        			</li>
+    				</ul>
+  				</div><!-- /.navbar-collapse -->
+  			</div>
+			</nav>
     <!-- /Navigation -->
-</div>	
+		</div>	
     <!-- About -->
     <div id="about" class="about_us">
       <div class="container">
@@ -74,22 +99,18 @@
           <div class="col-md-8 col-md-offset-2 text-center">
             <h2 class="da-title"><span>About Me</span></h2>
             <h4>关于我</h4>
-
             <p class="lead">本人性格随和，积极主动，为人坦诚，有较强的团队合作精神，能和别人建立和谐友好关系，有吃苦耐劳的精神，喜欢尝试新鲜事物的我对生活充满了激情。在闲暇的时间会背包旅游或者打打羽毛球之类的活动</p>
           </div>
         </div>
-	  </div>
-    </div>
-    
+	  	</div>
+    </div>   
     <!-- Speciallities -->
     <div id="services" class="services">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
-             <h2 class="da-title"><span>My Speciallities</span></h2>
+            <h2 class="da-title"><span>My Speciallities</span></h2>
             <h4>我的技能</h4>
-<!-- 
-            <hr> -->
           </div>
         </div>
         <div class="row">
@@ -98,307 +119,359 @@
               <i class="service-icon fa fa-camera-retro fa-3x"></i>
               <h3>Web Layout</h3>
               <p>ps+ai</p>
-                <p>html+css</p>
-                <p>html5+css3</p>
-                <p>&nbsp;</p>
-             </div>
-          </div>
+              <p>html+css</p>
+              <p>html5+css3</p>
+              <p>&nbsp;</p>
+            </div>
+        </div>
           <div class="col-md-4 text-center">
             <div class="service-item">
-			<i class="service-icon fa fa-camera fa-3x"></i>
+							<i class="service-icon fa fa-camera fa-3x"></i>
               <h3>Dynamic Effect</h3>
               <p>Javascript</p>
               <p>jQuery</p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
-             </div>
+            </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-globe fa-3x"></i>
               <h3>Data Contact</h3>
-                  <p>phpcms</p>
-                  <p>node.js</p>
-                   <p>ajax</p>
-                   <p>myspl</p>
-             </div>
+              <p>phpcms</p>
+              <p>node.js</p>
+              <p>ajax</p>
+              <p>myspl</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- /Speciallities -->
-
     <!-- Experience -->
     <div id="portfolio" class="portfolio">
-    <div class="container">
-    <div class="row push50">
-          <div class="col-md-4 col-md-offset-4 text-center">
-            <h2 class="da-title"><span>Experience</span></h2>
-            <h4>作品展示</h4>
-			<h3>
-			<span class="filter label label-default" data-filter="all">ALL</span>
-	<span class="filter label label-default" data-filter="bw">DS</span>
-	<span class="filter label label-default" data-filter="nature">Game</span>
-	<span class="filter label label-default" data-filter="portraits">Other</span>
-	</h3>
-            <hr>
-          </div>
-        </div>
+    	<div class="container">
+    		<div class="row push50">
+      		<div class="col-md-4s col-md-offset-4s text-center">
+        		<h2 class="da-title"><span>Experience</span></h2>
+        		<h4>作品展示</h4>
+						<h3>
+							<span class="filter label label-default" data-filter="all">ALL</span>
+							<span class="filter label label-default" data-filter="bw">DS</span>
+							<span class="filter label label-default" data-filter="nature">Game</span>
+							<span class="filter label label-default" data-filter="portraits">Other</span>
+							<span class="filter label label-default" data-filter="UIS">UI</span>
+						</h3>
+      			<hr>
+     			</div>
+    		</div>		
+				<div class="row">		
+					<div class="gallery">
+		     		<ul id="Grid" class="gcontainer">
+		          <!-- 1 -->
+		    		  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
+		            <a href="/fangdajing" data-toggle="modal"  class="mix-cover">
+		              <img class="horizontal" src="img/作品图片/fngdajing.png" alt="placeholder">
+		      		    <span class="overlay">
+		      		      <span class="valign"></span>
+		      		      <span class="title">Other-magnifying glass</span>
+		      		    </span>
+		            </a>                
+		      		  </li>
+		           <!--  2 -->
+		    		    <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
+		              <a href="/wuziqi" data-toggle="modal"  class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/wuziqi.png" alt="placeholder">
+		        		    <span class="overlay">
+		                  <span class="valign"></span>
+		                  <span class="title">Game-five-in-a-row</span>
+		                </span>
+		              </a>                
+		      		  </li>
+		            <!-- 3 -->
+					      <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
+		              <a href="/pukepai" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/puke.png" alt="placeholder">
+		        		    <span class="overlay">
+		        		    	<span class="valign"></span>
+		        		    	<span class="title">Game-poker</span>
+		        		    </span>
+		        		  </a>
+		      		  </li>
+		            <!-- 4 -->
+		      		  <li class="col-md-4 col-sm-4 col-xs-12 mix  portraits all" data-cat="nature">
+		              <a href="http://zjylianxiren.duapp.com" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal"  src="img/作品图片/lianxiren.png" alt="placeholder">
+		        		    <span class="overlay">
+		        		    	<span class="valign"></span>
+		        		    	<span class="title">Other-The contact </span>
+		        		    </span>
+		        		  </a>
+		      		  </li>
+		            <!-- 5 -->
+					  		<li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="nature">
+		            	<a href="/xiangce" data-toggle="modal"  class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/xiangce.png" alt="placeholder">
+		        		      <span class="overlay">
+		        		      	<span class="valign"></span>
+		        		      	<span class="title">Other-Photo album </span>
+		        		      </span>
+		        		    </a>
+		      		  </li>
+		            <!-- 6 -->
+					      <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
+		              <a href="/tanchishe" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/tanchishe.png" alt="placeholder">
+		        		    	<span class="overlay">
+		        		    		<span class="valign"></span>
+		        		    		<span class="title">Game-snake </span>
+		        		    	</span>
+		        		    </a>
+		      		  </li>
+		            <!-- 7 -->
+		      		  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
+		              <a href="/clock" data-toggle="modal"  class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/click.png" alt="portrait 4">
+		                <span class="overlay">
+		                  <span class="valign"></span>
+		                 	<span class="title">Other-clock</span>
+		                </span>           
+		        		  </a>
+		      		  </li>
+		            	<!-- 8 -->
+					 			<li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="portrait">
+		              <a href="/tianmao" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/tianmao.png" alt="Forest">
+		                  <span class="overlay">
+		                    <span class="valign"></span>
+		                    <span class="title">DS-tianmao</span>
+		                  </span>                    
+		        		  </a>
+		      		  </li>
+		            <!-- 9 -->
+					  		<li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
+		              <a href="/yintai" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/yintai.png" alt="Black and White">
+		                <span class="overlay">
+		                  <span class="valign"></span>
+		                  <span class="title">DS-yintai</span>
+		                </span>                  
+		        		  </a>
+		      		  </li>
 		
-		<div class="row">
+		          <!-- 10 -->
 		
-		<div class="gallery">
-     		  <ul id="Grid" class="gcontainer">
-          <!-- 1 -->
-    		    <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
-              <a href="/bootstrap" data-toggle="modal"  class="mix-cover">
-                <img class="horizontal" src="img/作品图片/bootstrop.png" alt="placeholder">
-      		      <span class="overlay"><span class="valign"></span><span class="title">Other-bootstrap</span></span>
-              </a>                
-      		  </li>
-           <!--  2 -->
-    		    <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
-                <a href="/five-in-row-AI" data-toggle="modal"  class="mix-cover">
-                  <img class="horizontal" src="img/作品图片/five2.png" alt="placeholder">
-        		      <span class="overlay">
-                      <span class="valign"></span>
-                      <span class="title">Game-five_in_row</span>
-                  </span>
-                </a>                
-      		  </li>
-            <!-- 3 -->
-			      <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
-                <a href="/flappy--bird" data-toggle="modal" class="mix-cover">
-                  <img class="horizontal" src="img/作品图片/xn1.png" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Game-Flappy Bird</span></span>
-        		    </a>
-      		  </li>
-            <!-- 4 -->
-      		  <li class="col-md-4 col-sm-4 col-xs-12 mix  portraits all" data-cat="nature">
-                <a href="/apple2" data-toggle="modal" class="mix-cover">
-                  <img class="horizontal"  src="img/作品图片/apple.png" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Other-apple</span></span>
-        		    </a>
-      		  </li>
-            <!-- 5 -->
-			  		<li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="nature">
-                <a href="/angluar-sketch" data-toggle="modal"  class="mix-cover">
-                  <img class="horizontal" src="img/作品图片/hb.png" alt="placeholder">
-        		       <span class="overlay"><span class="valign"></span><span class="title">Other-sketch</span></span>
-        		    </a>
-      		  </li>
-            <!-- 6 -->
-			      <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
-                <a href="/saolei" data-toggle="modal" class="mix-cover">
-                  <img class="horizontal" src="img/作品图片/sl.png" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Game-saolei</span></span>
-        		    </a>
-      		  </li>
-            <!-- 7 -->
-      		   <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
-                <a href="/remind" data-toggle="modal"  class="mix-cover green">
-                  <img class="vertical" src="img/作品图片/re2.png" alt="portrait 4">
-                  <span class="overlay"><span class="valign"></span><span class="title">Other-reminder</span></span>           
-        		    </a>
-      		  </li>
-            <!-- 8 -->
-			 			<li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="portrait">
-                <a href="/xiaomi" data-toggle="modal" class="mix-cover green">
-                  <img class="vertical" src="img/作品图片/xm.png" alt="Forest">
-                   <span class="overlay">
-                      <span class="valign"></span>
-                      <span class="title">DS-xiaomi</span>
-                  </span>                    
-        		    </a>
-      		  </li>
-            <!-- 9 -->
-			  		<li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
-                <a href="/tianmao" data-toggle="modal" class="mix-cover green">
-                  <img class="vertical" src="img/作品图片/tm.png" alt="Black and White">
-                   <span class="overlay"><span class="valign"></span><span class="title">DS-Tmall</span></span>                  
-        		    </a>
-      		  </li>
-
-          <!-- 10 -->
-
-            <li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
-                <a href="/yihaodian" data-toggle="modal" class="mix-cover green">
-                  <img class="vertical" src="img/作品图片/yhd.png"  alt="Black and White">
-                   <span class="overlay"><span class="valign"></span><span class="title">DS-yihaodian</span></span>                  
-                </a>
-            </li>
-            <!-- 11 -->
-            <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
-                <a href="/snake" data-toggle="modal" class="mix-cover">
-                  <img class="horizontal" src="img/作品图片/snake.png"  alt="placeholder">
-                  <span class="overlay"><span class="valign"></span><span class="title">Game-snake</span></span>
-                </a>
-            </li>
-            <!-- 12 -->
-            <li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
-                <a href="/chuizi" data-toggle="modal"  class="mix-cover green">
-                  <img class="vertical"  src="img/作品图片/cz.png" alt="Black and White">
-                   <span class="overlay"><span class="valign"></span><span class="title">DS-Smartisan</span></span>                  
-                </a>
-            </li>
-            <!-- 13 -->
-            <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
-                <a href="/QQmusic" data-toggle="modal" class="mix-cover green">
-                  <img class="vertical" src="img/作品图片/yy.png" alt="portrait 4">
-                  <span class="overlay"><span class="valign"></span><span class="title">Other-QQmusic</span></span>           
-                </a>
-            </li>
-            <!-- 14 -->
-            <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
-                <a href="/fullpage" data-toggle="modal" class="mix-cover green">
-                  <img class="vertical"  src="img/作品图片/fullpage.png" alt="portrait 4">
-                  <span class="overlay"><span class="valign"></span><span class="title">Other-fullpage</span></span>           
-                </a>
-            </li>
-            <!-- 15  -->
-            <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
-                <a href="/APP" data-toggle="modal" class="mix-cover green">
-                  <img class="vertical" src="img/作品图片/ysme.png" alt="portrait 4">
-                  <span class="overlay"><span class="valign"></span><span class="title">Other-app</span></span>           
-                </a>
-            </li>
- 
-    		  </ul>   
-			  
-<!-- Load Photo in Modal -->			  
-   <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Portrait 1</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="Portrait1" src="img/portrait1.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-  <div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Portrait 2</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="Portrait1" src="img/portrait2.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Portrait 3</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="Portrait1" src="img/portrait3.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="portrait4" tabindex="-1" role="dialog"  aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Portrait 4</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="Portrait1" src="img/portrait4.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="portrait5" tabindex="-1" role="dialog"  aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Portrait 5</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="Portrait1" src="img/portrait5.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="nature" tabindex="-1" role="dialog"  aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Nature</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="nature" src="img/nature.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Nature 1</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="nature" src="img/nature1.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-
-<div class="modal fade" id="forest" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Forest</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="forest" src="img/forest.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="bw1" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-center">Black and White</h4>
-      </div>
-      <div class="modal-body">
-       <img class="thumbnail" alt="forest" src="img/bw1.jpg"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-
-<!-- /Load Photo in Modal -->	
-		</div>	
-      </div>
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
+		              <a href="/huawei" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/huawei.png"  alt="Black and White">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">DS-huawei</span>
+		                </span>                  
+		              </a>
+		            </li>
+		            <!-- 11 -->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix UIS all" data-cat="nature">
+		              <a href="/ps" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/ps.png"  alt="placeholder">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">UI-ps</span>
+		                </span>
+		              </a>
+		            </li>
+		            <!-- 12 -->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
+		              <a href="/apple" data-toggle="modal"  class="mix-cover green">
+		                <img class="vertical"  src="img/作品图片/apple.png" alt="Black and White">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">DS-Apple</span>
+		                </span>                  
+		              </a>
+		            </li>
+		            <!-- 13 -->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
+		              <a href="/music" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/yy.png" alt="portrait 4">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">Other-QQmusic</span>
+		                </span>           
+		              </a>
+		            </li>
+		            <!-- 14 -->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix UIS all" data-cat="graphics">
+		              <a href="/game" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/game.png" alt="portrait 4">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">UI-GAME</span>
+		                </span>           
+		              </a>
+		            </li>
+		            <!-- 15  -->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
+		              <a href="http://localhost/" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/aimaiti.png" alt="portrait 4">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">Other-amaiti</span>
+		                </span>           
+		              </a>
+		            </li>
+		            <!--16-->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix UIS all" data-cat="graphics">
+		              <a href="/APP" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical" src="img/作品图片/app.png" alt="portrait 4">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">UI-App</span>
+		                </span>           
+		              </a>
+		            </li>
+		            <!--17-->
+		            <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
+		              <a href="/wanhuatong" data-toggle="modal" class="mix-cover green">
+		                <img class="vertical"  src="img/作品图片/wanhuatong.png" alt="portrait 4">
+		                <span class="overlay">
+		                	<span class="valign"></span>
+		                	<span class="title">Other-kaleidoscope</span>
+		                </span>           
+		              </a>
+		            </li>
+		    		  </ul>   			  
+		<!-- Load Photo in Modal -->			  
+		   				<div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+		  					<div class="modal-dialog">
+		    					<div class="modal-content">
+		      					<div class="modal-header">
+		        					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        					<h4 class="modal-title text-center">Portrait 1</h4>
+		      					</div>
+		      					<div class="modal-body">
+		       						<img class="thumbnail" alt="Portrait1" src="img/portrait1.jpg"/>
+		      					</div>
+		    					</div><!-- /.modal-content -->
+		  					</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+		  				<div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
+		  					<div class="modal-dialog">
+		    					<div class="modal-content">
+		      					<div class="modal-header">
+		        					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        					<h4 class="modal-title text-center">Portrait 2</h4>
+		      					</div>
+		      					<div class="modal-body">
+		       						<img class="thumbnail" alt="Portrait1" src="img/portrait2.jpg"/>
+		      					</div>
+		    					</div><!-- /.modal-content -->
+		  					</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+		
+							<div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
+		  				<div class="modal-dialog">
+		    				<div class="modal-content">
+		      				<div class="modal-header">
+		        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        				<h4 class="modal-title text-center">Portrait 3</h4>
+		      				</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="Portrait1" src="img/portrait3.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="portrait4" tabindex="-1" role="dialog"  aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Portrait 4</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="Portrait1" src="img/portrait4.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="portrait5" tabindex="-1" role="dialog"  aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Portrait 5</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="Portrait1" src="img/portrait5.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="nature" tabindex="-1" role="dialog"  aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Nature</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       			<img class="thumbnail" alt="nature" src="img/nature.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Nature 1</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="nature" src="img/nature1.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+		
+					<div class="modal fade" id="forest" tabindex="-1" role="dialog" aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Forest</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="forest" src="img/forest.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="bw1" tabindex="-1" role="dialog" aria-hidden="true">
+		  			<div class="modal-dialog">
+		   	 			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Black and White</h4>
+		      			</div>
+		      		<div class="modal-body">
+		       			<img class="thumbnail" alt="forest" src="img/bw1.jpg"/>
+		      		</div>
+		    		</div><!-- /.modal-content -->
+		  		</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+		<!-- /Load Photo in Modal -->	
+					</div>	
+				</div>
+			</div>
 		</div>
-      </div>
     <!-- /Portfolio -->
     <!-- Contact -->
     <div id="contact">
@@ -459,7 +532,7 @@
      <!--/Footer 
      Bootstrap core JavaScript
      Placed at the end of the document so the pages load faster-->
-    <script src="js/jquery.js"></script>
+  <script src="js/jquery.js"></script>
 	<script src="js/jquery-scrolltofixed-min.js"></script>
 	<script src="js/jquery.vegas.js"></script>
 	<script src="js/jquery.mixitup.min.js"></script>
