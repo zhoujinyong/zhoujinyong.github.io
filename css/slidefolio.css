@@ -20,6 +20,7 @@ body {
 	
 }	
 .pre-img{
+	opacity: 0.4;
 	width: 100%;
 	height: 100%;
 	background: url(../img/shang.png);
@@ -31,6 +32,7 @@ body {
 	margin: 10px 0;
 }
 .stop-img{
+	opacity: 0.4;
 	width: 100%;
 	height: 100%;
 	background: url(../img/stop.png);
@@ -41,6 +43,7 @@ body {
 	
 	}
 	.next-img{
+		opacity: 0.4;
 		width: 100%;
 		height: 100%;
 		background: url(../img/xia.png);
@@ -259,10 +262,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 .yuan{
-  width:100px;
-  height:100px;
+  width:300px;
+  height:300px;
   border-radius:50%;
-  background:red;
+  background:#000;
 }
 .da-title>span{
   /*display:block;*/
