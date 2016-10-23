@@ -266,6 +266,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
   height:300px;
   border-radius:50%;
   background:#000;
+  overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -30px;
+}
+@media (max-width: 760px) {
+	.yuan {
+		 width:200px;
+  height:200px;
+  margin-left: -100px;
+	margin-top: 10px;
+  
+	}
+	.mengxiang{
+		font-size: 26px;
+	}
+		
 }
 .da-title>span{
   /*display:block;*/
